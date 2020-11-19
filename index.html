@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" continue ="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bevan&family=Fredericka+the+Great&family=Great+Vibes&family=Italianno&family=Monoton&family=Niconne&family=Parisienne&family=Sacramento&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+        <title>CSS class 2</title>
+        <style>
+            *{
+                text-align: center;
+                margin:0;
+            }
+            .mainbox{
+                position:relative;
+                width:60%;
+                height:100%;
+                margin: 0 auto;
+                background-color:  rgb(8, 8, 46);
+                border-top-left-radius: 60px;
+                border-top-right-radius: 60px;
+                
+            }
+            .mainbox::after{
+                content: "";
+                position: absolute;
+                left: 5%;
+                top: 2%;
+                height: 100%; 
+                width: 90%;
+                border: 2px dashed white;
+                border-radius: 60px;
+            }
+            #ifactory{
+                position:absolute;
+                top:1.5%;
+                left:40%; 
+                color:white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .skew{
+                padding:15%;
+                transform:skewY(-5deg);
+            }
+            p{
+                transform:skewY(5deg);
+            }
+            .section1{
+                color:wheat;
+                background-color: rgb(8, 8, 46);
+                height:10%;
+                padding-top:20%;
+                padding-bottom:15%;
+                border-top-left-radius: 60px;
+                border-top-right-radius: 60px;
+            }
+            div:nth-child(odd):first-letter {
+                font-family: 'Fredericka the Great', cursive;
+                font-size:100px;
+            }
+            div:nth-child(even):first-letter {
+                font-family: 'Great Vibes', cursive;
+                font-size:100px;
+            }
+            
+            .section2{
+                color:rgb(21, 31, 112);
+                background-image: url(ashgrey-sec2.jpg);
+                height:10%;
+            }
+            
+            .section3{
+                color:white;
+                background-image: url(blue-sec3.jpg);
+                height:10%;
+            }
+            .section4{
+                color:black;
+                background-color:pink;
+                height:10%;
+            }
+            .section5{
+                color:rgb(233, 232, 238);
+                background-image: url(violet-sec5.jpg);
+                height:10%;
+            }
+            .section6{
+                color:rgb(21, 15, 51);
+                background-color: rgb(96, 191, 207);
+                height:10%;
+            }
+            .section7{
+                color:rgb(226, 139, 230);
+                background-color: rgb(13, 12, 51);
+                height:10%;
+            }
+            .section8{
+                color:rgb(174, 226, 77);
+                background-image: url(flies-sec8.jpg);
+                height:10%;
+            }
+            .section9{
+                color:rgb(12, 8, 29);
+                background-image: url(yellow-sec9.jpg);
+                height:10%;
+            }
+            .section10{
+                /* color:rgb(5, 4, 8);
+                background-color: rgb(151, 206, 223); */
+                color:wheat;
+                background-color: rgb(8, 8, 46);
+                height:10%;
+                padding:15%;
+            }
+        </style>
+
+
+    </head>
+    <body>
+        <div>
+            <div>
+                <br>
+            </div>
+        <div class="mainbox">
+            
+            <div class="section1">
+                <section id = "ifactory">IFACTORY</section>
+                <span>SCROLLING IN THE WEB DESIGN</span>
+                <br>
+                <i class="fa fa-desktop"></i>
+                <img src="mouse2.jpg" alt="mouse" style="width:40px;">
+                <br>
+                <span>THE LONG AND SHORT OF IT</span>
+                
+
+            </div>
+            <div class="section2 skew">
+                <p>LONG SCROLL : THE GOOD STUFF</p>
+                <P>VISUAL CREATIVITY</P>
+                <P>There's more visual freedom in parallax website design.rather than focusing on block style information architecture, you can create refreshing and engaging visuals such as animations or beautiful photography, that act as a continuum, ultimately inspiring users to scroll further down the page.</P>
+
+            </div>
+            <div class="section3 skew">
+                <p>STORY TELLING OPPURTUNITIES</p>
+                <P> Do you want to tell a story with your product or service?</P>
+                <p>Long-scrolling lends itself well to a narrative and encourages meaningful interaction from users.</p>
+
+            </div>
+            <div class="section4 skew">
+                <p>SIMPLE INTERFACE FOR SMART DEVICE USERS</p>
+                <P>Mobile and tablets have evolved the way we engage in websites.it's now less about clicking and more about scrolling, swiping and tapping.</P>
+                <p>Long-scrolling websites take away the barrier of complex navigation, providing a responsive, user-friendly experience for mobile users.</p>
+
+            </div>
+            <div class="section5 skew">
+                <p>SCROLLING IN THE WEB DESIGN</p>
+                icon
+                <p>THE LONG AND SHORT OF IT</p>
+                
+
+            </div>
+            <div class="section6 skew">
+                <p>LONG SCROLL : THE GOOD STUFF</p>
+                <P>VISUAL CREATIVITY</P>
+                <P>There's more visual freedom in parallax website design.rather than focusing on block style information architecture, you can create refreshing and engaging visuals such as animations or beautiful photography, that act as a continuum, ultimately inspiring users to scroll further down the page.</P>
+
+            </div>
+            <div class="section7 skew">
+                <p>STORY TELLING OPPURTUNITIES</p>
+                <P> Do you want to tell a story with your product or service?</P>
+                <p>Long-scrolling lends itself well to a narrative and encourages meaningful interaction from users.</p>
+
+            </div>
+            <div class="section8 skew">
+                <p>SIMPLE INTERFACE FOR SMART DEVICE USERS</p>
+                <P>Mobile and tablets have evolved the way we engage in websites.it's now less about clicking and more about scrolling, swiping and tapping.</P>
+                <p>Long-scrolling websites take away the barrier of complex navigation, providing a responsive, user-friendly experience for mobile users.</p>
+
+            </div>
+            <div class="section9 skew">
+                <p>STORY TELLING OPPURTUNITIES</p>
+                <P> Do you want to tell a story with your product or service?</P>
+                <p>Long-scrolling lends itself well to a narrative and encourages meaningful interaction from users.</p>
+
+            </div>
+            <div class="section10 skew">
+                <p>SIMPLE INTERFACE FOR SMART DEVICE USERS</p>
+                <P>Mobile and tablets have evolved the way we engage in websites.it's now less about clicking and more about scrolling, swiping and tapping.</P>
+                <p>Long-scrolling websites take away the barrier of complex navigation, providing a responsive, user-friendly experience for mobile users.</p>
+            </div>
+            <div>
+                <br>
+                <br>
+
+            </div>
+        </div>
+        </div>
+    
+    </body>
+</html>
